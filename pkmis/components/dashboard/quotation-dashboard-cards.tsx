@@ -3,7 +3,6 @@ import { getTotalQoutation } from "@/services/dashboard/get-total-count-quotatio
 import { getTotalSumQuotation } from "@/services/dashboard/get-total-sum-quotation";
 
 export async function QuotationDashboardCards() {
-  const totalSales = 10;
   const totalProducts = 10;
   const totalCustomers = 10;
   const totalSuppliers = 10;

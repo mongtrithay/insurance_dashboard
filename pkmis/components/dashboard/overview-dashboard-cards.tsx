@@ -6,8 +6,6 @@ import { getTotalSumPremiumAmount } from "@/services/dashboard/get-total-premium
 import { getTotalProspect } from "@/services/dashboard/get-total-count-prospect";
 
 export async function OverviewDashboardCards() {
-  const totalSales = 10;
-  const totalCustomers = 10;
   const totalSuppliers = 10;
 
   const totalInsured = await getTotalInsured();
